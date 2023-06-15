@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: block;
+  text-align: center;
+  background-image: url(img/galaxy-wall.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.log-fmx {
+  border-radius: 50%;
+  margin: 30px;
+}
+
+main {
+  margin: auto;
+  background: #410464;
+  opacity: 0.7;
+  border-radius: 25px;
+  padding: 20px;
+  max-width: 450px;
+  width: 95%;
+}
+
+.input-city {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 25px;
+  font-size: 18px;
+  background-color: #1951ca50;
+  color: #fffefb;
+  width: calc(100% - 70px);
+}
+
+.button-search {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: #1951ca50;
+  cursor: pointer;
+  float: right;
+}
+
+.img-search {
+  width: 20px;
+}
+
+.middle-box {
+  margin-top: 30px;
+}
+
+.city {
+  color: #ffdc19;
+  font-size: 30px;
+  font-weight: 350;
+}
+
+.temp {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+}
+
+.little-box {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.forecast-text {
+  color: #ffffff;
+  margin-left: 20px;
+  text-transform: capitalize;
+}
+
+.unit {
+  color: #ffffff;
+  margin-top: 20px;
+}
